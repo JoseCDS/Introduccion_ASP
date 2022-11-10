@@ -2,6 +2,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2><%: Title %>.</h2>
-    <p>Your app description ggdfgpage.</p>
+    <p>Your app description.</p>
     <p>Use this area to provide additional information.</p>
 </asp:Content>
