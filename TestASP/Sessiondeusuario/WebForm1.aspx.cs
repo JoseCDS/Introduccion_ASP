@@ -15,8 +15,13 @@ namespace Sessiondeusuario
         // del bowser 
         // y se consideraria la misma sesion
         // Si abrimoss en otro browser veremos que tenemos dos sesiones y una aplicacion instanciada
+<<<<<<< Updated upstream
         //hola mundo add
 
+=======
+        //hola mundo
+        //mundo
+>>>>>>> Stashed changes
         //Si no queremos tener cookie para nuestra sesion, en web
         protected void Page_Load(object sender, EventArgs e)
         {
