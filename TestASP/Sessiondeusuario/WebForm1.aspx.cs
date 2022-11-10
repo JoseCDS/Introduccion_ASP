@@ -15,19 +15,16 @@ namespace Sessiondeusuario
         // del bowser 
         // y se consideraria la misma sesion
         // Si abrimoss en otro browser veremos que tenemos dos sesiones y una aplicacion instanciada
-<<<<<<< Updated upstream
+
         //hola mundo add
 
-=======
-        //hola mundo
-        //mundo
->>>>>>> Stashed changes
+
         //Si no queremos tener cookie para nuestra sesion, en web
         protected void Page_Load(object sender, EventArgs e)
         {
             //El servidor manda la respuesta al cliente
             Response.Write("Cantidad de aplicaiciones instanciadas" + Application["Aplicaciones"] + "<br/>");
-            Response.Write("Cantidad de sessiones de usuarios" + Application["SessionesUsuario"] );
+            Response.Write("Cantidad de sessiones de usuarios" + Application["SessionesUsuario"]);
         }
     }
 }
